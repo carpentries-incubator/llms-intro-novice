@@ -41,6 +41,8 @@ Use [an online tokeniser tool](https://www.danieldemmel.me/tokenizer/) to count 
 
 > In biology, depolarization or hypopolarization is a change within a cell, during which the cell undergoes a shift in electric charge distribution, resulting in less negative charge inside the cell compared to the outside.
 
+_(From [Wikipedia: Depolarization](https://en.wikipedia.org/wiki/Depolarization))_
+
 Scroll down the page to explore the breakdown of tokens from different systems.
 Try out some other sentences and paragraphs.
 What do you learn about how text is broken into tokens?
