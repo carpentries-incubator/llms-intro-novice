@@ -1,7 +1,7 @@
 ---
 title: 'Large Language Models'
-teaching: 10
-exercises: 2
+teaching: 15
+exercises: 15
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 

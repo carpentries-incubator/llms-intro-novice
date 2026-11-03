@@ -57,10 +57,10 @@ Gather learners' anonymous responses to the following questions, using a polling
 This exercise is an opportunity to gain a firmer grasp on some concepts related to (generative) artificial intelligence.
 
 1. Pair with a neighbor or form a small group. Decide who will take notes.
-1. Spend the first three to five minutes listing any terms, phrases, or ideas related to artificial intelligence that you’ve come across and perhaps feel you should understand better.
+1. Spend the first three to five minutes listing any terms, phrases, or ideas related to artificial intelligence that you've come across and perhaps feel you should understand better.
 1. Have the note-taker compile your list of terms, phrases, and ideas.
 1. Now in a larger group (or with everyone in the workshop) spend 10 to 15 minutes working together to try to explain what some of those terms, phrases, or ideas on your list mean. 
-1. The instructor will collate terms and explanations on a whiteboard or Etherpad and facilitate a discussion about what we will cover today and where you can go for help on things we won’t cover.
+1. The instructor will collate terms and explanations on a whiteboard or Etherpad and facilitate a discussion about what we will cover today and where you can go for help on things we won't cover.
 
 ::::::::::::::::::::::::::::: instructor
 
@@ -119,13 +119,12 @@ We have found that some understanding of the technology behind generative AI too
 Without dwelling on technical details, the rest of this lesson will explore the central technology of generative AI: the large language model.
 We will discuss what these models do, how they are produced, and what is happening when you ask one to generate something.
 With a strengthened understanding of how these tools work, you will be better equipped to judge when and how to use them in your work.
-ahhhhhhhh
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - "AI" is a term people use to refer to a very large variety of different things.
 - Different people have different perspectives on the technology, and these perspectives are sometimes associated with strong feelings.
-- It helps to share what you know and don’t know about.
+- It helps to share what you know and don't know about.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

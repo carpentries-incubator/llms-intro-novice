@@ -17,10 +17,10 @@ carpentry: 'incubator'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Exploring Large Language Models'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: 2025-12-18
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -28,19 +28,19 @@ keywords: 'software, data, lesson, The Carpentries'
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha'
+life_cycle: 'alpha'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md'
+source: 'https://github.com/carpentries-incubator/llms-intro-novice'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'tobyhodges@carpentries.org'
 
 # Navigation ------------------------------------------------
 #
