@@ -21,6 +21,7 @@ After this episode, learners will be able to:
 
 The term "generative AI" refers to a range of artificial intelligence models that produce output similar to the data on which they have been trained, based on some input provided.
 The category includes many different models that have been trained to produce different kinds of output from different inputs, e.g. text to text, text to image, text to video, image to text.
+The focus of this workshop will be text-to-text models, since these are the type predominantly used for assistance with programming.
 The technology at the centre of the most well-known and widely-used text generating AI tools is the _Large Language Model_ (LLM).
 
 ## Advanced Pattern Matching 
@@ -33,7 +34,15 @@ TODO: a figure summarising the process outlined below.
 Patterns are "learned" by the model through a process of _training_: a large volume of data is processed to identify the statistical relationships between elements of that data, which are then stored in the model.
 In language models, these elements of data are _tokens_: words, parts of words, and other building blocks of text.
 Patterns are identified in the use of these tokens during the training process, such as which combinations of tokens often appear in sequence.
+:::::::::::::::::::::::::::::::::::::: callout
+## Beware of using Human Words for Machine Processes
 
+Words like _"learn"_, _"know"_, _"understand"_ and _"hallucinate"_ are everyday human words which we have borrowed to describe LLMs because they are convenient.
+However, they can suggest that the LLM has more of a human-like conscience than is really the case.
+For example, when we say a model "learns", it's easy to imagine it understanding information as a human does.
+In reality, a model "learning" instead describes numerical weights being adjusted so that its output better matches patterns in text.
+Throughout the workshop, pay attention to when the language used to describe AI suggests human-like thinking, and reflect on what the tool is actually doing.
+::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::: challenge
 
 ### Exploring tokens
@@ -53,6 +62,7 @@ What do you learn about how text is broken into tokens?
 Text is most commonly split into one token per word, with additional tokens for punctuation.
 Spaces before words are often included in the word's token, and some words are decomposed into multiple tokens representing common building blocks of the language e.g. suffixes like "ing", "ize", and "ed" or prefixes like "pre", "de", "uni", etc.
 
+TODO: add screenshot of tokenizer output
 ::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -70,7 +80,7 @@ The results of these tests are used to further adjust the weights towards the ki
 ### The system prompt
 A chatbot has an internal prompt containing a fixed set of instructions from its developers.
 This _system prompt_ is included alongside the user's prompt whenever the model generates output.
-It may contain guidance on everything from the tone chatbot's output to how it should avoid infringing copyright in its responses.
+It may contain guidance on everything from the tone of the chatbot's output to how it should avoid infringing copyright in its responses.
 
 ### The context window
 In addition to the inherent weights of the model, the content of the output is influenced by the context of the task at hand.
@@ -82,7 +92,7 @@ The capacity of the context window, and ensuring that the most relevant informat
 
 ::::::::::::::::::::::::::::::::::::::: discussion
 
-### How context influence output?
+### How does context influence output?
 Your task is to predict the next word in the following sentence:
 
 > On the way to the meeting, I picked up a \_\_\_\_

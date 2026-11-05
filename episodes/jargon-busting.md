@@ -109,7 +109,7 @@ The goals of this activity are:
 ::::::::::::::::::::::::::::: instructor
 
 ### Things to note for yourself
-The variety of terms identified in the activity, and the quality of definitons/explanations provided by learners, can give you a lot of information about the depth and distribution of prior knowledge (and misconceptions) among your workshop cohort.
+The variety of terms identified in the activity, and the quality of definitions/explanations provided by learners, can give you a lot of information about the depth and distribution of prior knowledge (and misconceptions) among your workshop cohort.
 
 ::::::::::::::::::::::::::::::::::::::::
 

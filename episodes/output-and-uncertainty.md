@@ -62,7 +62,7 @@ Take a tally of these different options on a white board or in the etherpad.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Press the _Generate_ again.
+Press the _Generate_ button again.
 Consider this next token and the list of other possible options.
 
 * How do you think these options differ from those produced for people who got a different token in the first iteration?
@@ -94,12 +94,17 @@ How does your interpretation of a piece of text change if you know it was AI-gen
 The randomness in chatbot response generation is intentional.
 It reduces the predictability of the chatbot's responses and makes them feel less "robotic".
 But the unpredictability also has some disadvantages.
-
+Randomness explains why responses vary from one attempt to the next, but it does not account for why LLMs sometimes generate incorrect output.
+To understand why LLMs can be wrong we need to examine an issue that has been called 'hallucination'.
 ## 'Hallucinations'
 The information in large language model output does not always correspond with observable reality: the text might include incorrect information that could be misleading without verification.
 These non-factual outputs have become known as _hallucinations_, although some objections have been raised to this terminology.
 The model itself does not _know_ whether the words and sentences in the output it is generating are factually accurate.
-Nor can it be held accountable for the consquences of any inaccuracies.
+Nor can it be held accountable for the consequences of any inaccuracies.
+
+It's important to remember that an LLM does not understand the content of any text or code it generates.  
+For example, a model that can write a convincing paragraph about quantum mechanics has not ‘understood’ quantum mechanics. 
+It has learned what such paragraphs tend to look like.
 Verification is the responsibility of the human on whose behalf the text is being generated.
 
 This responsibility and other risks of using AI-generated outputs are discussed in more detail later in the workshop, in the [_Considering Implications of GenAI Use_](https://carpentries-incubator.github.io/genai-implications-novice/) lesson.
@@ -124,12 +129,14 @@ Review the response you receive.
 As the world's foremost expert in you (presumably), you are uniquely well positioned to review this output.
 Reflecting on your assessment of this script, how confident would you feel about using AI to generate the script for an introduction of another researcher in your field?
 
+If you have the option to switch off web searching in your chatbot session, turn it off and try running the prompt again.
+How does this affect the output?
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::: discussion
 
 ### What does this change?
-Imagine that you need to cite a key research paper that you need to cite in a grant application that has to be submitted in the next few hours.
+Imagine that you need to cite a key research paper in a grant application that has to be submitted in the next few hours.
 You accidentally deleted the paper from your reference manager and need to find its details as quickly as possible.
 There is a good chance that one of the paper's authors will review your grant proposal so you also need to make sure that those details are correct!
 
@@ -151,7 +158,7 @@ The aim of these additional layers is to augment the capabilities of the model a
 
 - LLM outputs are generated from tokens randomly selected based on probabilities calculated by the model. 
   The same prompt provided multiple times will usually produce different results even if the starting conditions are identical.
-- Bear this randomness in mind as you work with chatbots: responses that appear authorative, from tools whose responses are often accurate and helpful, can include inaccuracies.
+- Bear this randomness in mind as you work with chatbots: responses that appear authoritative, from tools whose responses are often accurate and helpful, can include inaccuracies.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
