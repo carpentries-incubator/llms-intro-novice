@@ -34,6 +34,7 @@ TODO: a figure summarising the process outlined below.
 Patterns are "learned" by the model through a process of _training_: a large volume of data is processed to identify the statistical relationships between elements of that data, which are then stored in the model.
 In language models, these elements of data are _tokens_: words, parts of words, and other building blocks of text.
 Patterns are identified in the use of these tokens during the training process, such as which combinations of tokens often appear in sequence.
+
 :::::::::::::::::::::::::::::::::::::: callout
 ## Beware of using Human Words for Machine Processes
 
@@ -43,6 +44,7 @@ For example, when we say a model "learns", it's easy to imagine it understanding
 In reality, a model "learning" instead describes numerical weights being adjusted so that its output better matches patterns in text.
 Throughout the workshop, pay attention to when the language used to describe AI suggests human-like thinking, and reflect on what the tool is actually doing.
 ::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::: challenge
 
 ### Exploring tokens
