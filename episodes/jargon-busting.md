@@ -36,12 +36,12 @@ Gather learners' anonymous responses to the following questions, using a polling
    * uninterested
    * worried or scared
    * something else
-1. Which of these statements most closely matches your own view of artificial intelligence right now?
+2. Which of these statements most closely matches your own view of artificial intelligence right now?
   * it is going to change everything.
   * it is an over-hyped phase that will soon pass.
   * its impact will vary greatly from case to case.
   * I don't know
-1. On average, how frequently do you use a generative AI chatbot (e.g. ChatGPT, Copilot, Gemini, Claude)?
+3. On average, how frequently do you use a generative AI chatbot (e.g. ChatGPT, Copilot, Gemini, Claude)?
   * many times per day
   * once per day
   * weekly
