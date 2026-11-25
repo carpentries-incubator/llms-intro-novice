@@ -35,6 +35,7 @@ The purpose of the activity below is to help learners appreciate the role of ran
 It will be most effective if you make use of shared notes in the workshop etherpad and encourage learners to compare the results they are getting.
 
 To get things started:
+
 * Choose a starting sentence fragment from the _Examples_ dropdown (the lesson authors have had success with _"As the spaceship was approaching the"_).
 * Or, re-use _"On the way to the meeting, I picked up a \_\_\_\_"_ from the previous episode.
 * Or, provide your own/ask for a suggestion from the learners.
@@ -96,6 +97,7 @@ It reduces the predictability of the chatbot's responses and makes them feel les
 But the unpredictability also has some disadvantages.
 Randomness explains why responses vary from one attempt to the next, but it does not account for why LLMs sometimes generate incorrect output.
 To understand why LLMs can be wrong we need to examine an issue that has been called 'hallucination'.
+
 ## 'Hallucinations'
 The information in large language model output does not always correspond with observable reality: the text might include incorrect information that could be misleading without verification.
 These non-factual outputs have become known as _hallucinations_, although some objections have been raised to this terminology.
