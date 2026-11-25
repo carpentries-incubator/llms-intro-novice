@@ -8,6 +8,7 @@ exercises: 45
 
 - How do you and other workshop participants feel about AI?
 - What terms, phrases, and concepts are you aware of but wish you understood better?
+- Test update for PR merging
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
